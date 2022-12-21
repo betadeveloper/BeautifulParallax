@@ -15,10 +15,8 @@ code {
 }
 
 .img {
-  position: absolute;
-  object-fit: fill;
+  position: relative;
   height: 100vh;
-  object-position: left bottom;
 }
 
 .content {
@@ -93,4 +91,19 @@ code {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .react-parallax-bgimage {
+    height: auto !important;
+    width: fit-content !important;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+  }
 }
