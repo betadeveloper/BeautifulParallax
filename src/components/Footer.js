@@ -11,7 +11,7 @@ export default function Footer() {
           <a href='https://www.linkedin.com/in/raigardas-tautkus/'>
             <img src={Linkedin} alt='LinkedIn' />
           </a>
-          <a href='https://www.facebook.com/Meta/'>
+          <a href='https://www.facebook.com/eRaigardasTautkus/'>
             <img src={Facebook} alt='Facebook' />
           </a>
         </div>
